@@ -59,8 +59,8 @@ const Navbar = () => {
   };
   return (
     <>
-      <header>
-        <nav className="flex justify-between items-center py-4 border-b border-neutral-800 px-8">
+      <header className="h-auto overflow-hidden mb-4">
+        <nav className="flex justify-between items-center py-2 border-b border-neutral-800 px-8">
           {/* Logo and first  part  */}
           <div className="flex items-center gap-5">
             {/* logo */}
